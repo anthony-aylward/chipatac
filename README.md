@@ -1,4 +1,4 @@
-# ChIP-seq and ATAC-seq analysis
+# ChIP-seq and ATAC-seq processing
 
 ## Contents
 
