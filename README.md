@@ -177,7 +177,12 @@ seqalign-atac-seq reads/SAMN10079665_untreated_R1.fastq.gz reads/SAMN10079665_un
 In this case, the first two arguments are the two files representing the
 paired-end read data. The last argument is again a prefix for the output files.
 
-Sometimes ChIP-seq data may also be paired end. In those cases 
+Sometimes ChIP-seq data may also be paired end. In those cases the command for ChIP-seq alignment is similar to ATAC-seq alignment:
+
+```
+cd /nfs/lab/ChIPseq/example
+seqalign-chip-seq reads/CREB1.ENCFF199RYE.R1.fastq.gz reads/CREB1.ENCFF149OFF.R2.fastq.gz bam/CREB1
+```
 
 ## 4. Peak calling with `chipseqpeaks`
 
