@@ -46,7 +46,7 @@ For ChIP-seq and ATAC-seq analysis, the following variables should be in
 export TMPDIR=/nfs/lab/tmp
 
 # pyhg19
-export PYHG19_PATH=/nfs/lab/KG/ref/male.hg19.fa
+export PYHG19_PATH=/nfs/lab/hg19/male.hg19.fa
 export PYHG19_MASKED=/nfs/lab/KG/ref/male.masked.hg19.fa
 export PYHG19_BOWTIE2_INDEX=/nfs/lab/hg19/male.hg19
 
