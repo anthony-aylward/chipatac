@@ -126,6 +126,7 @@ is installed and up to date:
 
 ```
 pip install --upgrade seqalign
+picardtools-download
 ```
 
 Once it is installed, we can learn a bit about it by running:
