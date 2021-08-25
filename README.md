@@ -51,7 +51,7 @@ export PYHG19_MASKED=/nfs/lab/KG/ref/male.masked.hg19.fa
 export PYHG19_BOWTIE2_INDEX=/nfs/lab/hg19/male.hg19
 ```
 
-For it to work properly with `screen` (see below), you will also need to
+For it to work properly with `screen` (see below), we will also need to
 add the TMPDIR variable to the file `.bashrc`:
 ```
 # Set temporary directory
